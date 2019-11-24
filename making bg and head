@@ -1,0 +1,32 @@
+#Making Snake, finally
+
+import turtle
+
+#Set up screen
+
+wn = turtle.Screen()
+wn.title("Saanp ka khELl")
+wn.bgcolor("turquoise")
+wn.setup(width=600, height=600)
+wn.tracer(0)
+
+#Snake's head
+
+
+head = turtle.Turtle()
+#speed, max = 0
+
+head.speed(0)
+head.shape("square")
+head.color("pink")
+
+#preventing lines
+
+head.penup()
+
+#start at centre
+
+head.goto(0,0)
+
+
+wn.mainloop()
